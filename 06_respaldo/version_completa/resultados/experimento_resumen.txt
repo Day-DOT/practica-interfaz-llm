@@ -1,0 +1,10 @@
+Experimento de clasificación - 35 correos etiquetados (modelo: llama3.2, 402.4 s)
+
+Método        Cat.   Prior.   Ambas  Formales  Informales   Lat. media   Lat. p95
+Reglas       85.7%    62.9%   57.1%     84.6%       88.9%         1 ms       2 ms
+LLM          57.1%    77.1%   42.9%     53.8%       66.7%     11377 ms   15521 ms
+Híbrido      71.4%    65.7%   42.9%     65.4%       88.9%     11379 ms   15522 ms
+
+(Cat./Prior./Ambas = exactitud sobre todos los correos; Formales/Informales = exactitud de categoría según la ortografía del correo.)
+Respuestas del LLM inválidas tras reintentos (se usó respaldo): 0
+Correos que el híbrido marcó para revisión humana: 20

@@ -1,0 +1,95 @@
+{
+  "Reglas": {
+    "exactitud_categoria": 0.8,
+    "exactitud_prioridad": 0.6,
+    "latencia_media_s": 0.0,
+    "matriz_confusion": [
+      [
+        6,
+        1,
+        2,
+        1
+      ],
+      [
+        1,
+        7,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        8,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        7
+      ]
+    ]
+  },
+  "LLM": {
+    "exactitud_categoria": 0.343,
+    "exactitud_prioridad": 0.486,
+    "latencia_media_s": 12.82,
+    "matriz_confusion": [
+      [
+        2,
+        0,
+        8,
+        0
+      ],
+      [
+        0,
+        0,
+        9,
+        0
+      ],
+      [
+        1,
+        0,
+        7,
+        0
+      ],
+      [
+        0,
+        0,
+        5,
+        3
+      ]
+    ]
+  },
+  "Híbrido": {
+    "exactitud_categoria": 0.343,
+    "exactitud_prioridad": 0.429,
+    "latencia_media_s": 12.83,
+    "matriz_confusion": [
+      [
+        2,
+        0,
+        8,
+        0
+      ],
+      [
+        0,
+        0,
+        9,
+        0
+      ],
+      [
+        1,
+        0,
+        7,
+        0
+      ],
+      [
+        0,
+        0,
+        5,
+        3
+      ]
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+# Credenciales: NUNCA subir
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Configuración local generada por la app
+config.json
+
+# Archivos generados (los resultados del experimento SÍ se versionan como evidencia)
+matriz_riesgos.png

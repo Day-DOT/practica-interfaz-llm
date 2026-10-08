@@ -1,0 +1,36 @@
+﻿id,formal,texto,real_categoria,real_prioridad,reglas_categoria,reglas_prioridad,llm_categoria,llm_prioridad,hibrido_categoria,hibrido_prioridad,hibrido_revision_humana
+1,True,URGENTE: fuga de combustible en el camión ABC-123 en el muelle 4. Personal evacuado.,Seguridad,Alta,Seguridad,Alta,Seguridad,Alta,Seguridad,Alta,False
+2,True,Se detectó el sello de seguridad roto en el contenedor CONT-4521 del camión XYZ-789 al llegar a la caseta.,Seguridad,Alta,Seguridad,Media,Logística,Media,Seguridad,Media,True
+3,False,"kmion CAM-102 tuvo un acsidente en la entrada norte, ay un herido, manden ambulancia urjente",Seguridad,Alta,Seguridad,Alta,Seguridad,Alta,Seguridad,Alta,False
+4,True,Reporte de intento de robo de carga en el estacionamiento: el guardia vio a dos personas cerca del camión DEF-456. No hubo pérdidas.,Seguridad,Media,Seguridad,Alta,Logística,Media,Seguridad,Alta,True
+5,True,"La alarma de humo se activó en la bodega 2, pero fue falsa alarma confirmada por mantenimiento. Sin consecuencias.",Seguridad,Baja,Seguridad,Media,Documentación,Baja,Seguridad,Media,True
+6,True,Recordatorio: todo el personal debe usar chaleco reflectante y casco de seguridad en el área de carga.,Seguridad,Baja,Seguridad,Media,Documentación,Baja,Seguridad,Media,True
+7,False,"derrame de quimicos en el patio, el camion TRK-0099 esta goteando y hay olor fuerte!! ayuda",Seguridad,Alta,Seguridad,Alta,Otro,Alta,Seguridad,Alta,True
+8,True,El guardia reporta que la cerca perimetral del sector este está dañada; se requiere repararla esta semana.,Seguridad,Media,Otro,Baja,Logística,Media,Logística,Media,True
+9,False,emergencia incendio en el camion GHI-321 el motor esta en llamas llamen a los bomberos ya,Seguridad,Alta,Seguridad,Alta,Seguridad,Alta,Seguridad,Alta,False
+10,True,Un visitante entró a la zona de carga sin gafete y el guardia no lo detuvo; hay que revisar el protocolo de acceso.,Seguridad,Media,Logística,Baja,Documentación,Media,Documentación,Media,True
+11,True,La certificación del conductor del camión XYZ-9876 está vencida desde el lunes; falta renovar la póliza.,Documentación,Media,Documentación,Media,Documentación,Media,Documentación,Media,False
+12,True,"Buenas, el camion JKL-654 llegó sin la guía de remisión y no trae los permisos de ingreso.",Documentación,Media,Documentación,Baja,Logística,Media,Logística,Media,True
+13,True,Solicitud de actualización del manifiesto del contenedor CONT-2210: el documento tiene un error menor en el peso declarado.,Documentación,Baja,Documentación,Baja,Documentación,Media,Documentación,Media,True
+14,True,URGENTE: la licencia del conductor del camión MNO-852 es inválida y la carga es material peligroso; no puede salir hoy.,Documentación,Alta,Seguridad,Alta,Seguridad,Alta,Seguridad,Alta,False
+15,False,oiga el chofer del cam PQR-147 no trae su certifikado vensido desde el mes pasado ke hago?,Documentación,Media,Otro,Baja,Documentación,Baja,Documentación,Baja,True
+16,True,Adjunto la factura 4587 para su archivo; favor de confirmar la recepción del documento.,Documentación,Baja,Documentación,Baja,Documentación,Baja,Documentación,Baja,False
+17,True,Falta la firma del responsable en el formato de entrada del camión STU-963; la documentación está incompleta.,Documentación,Media,Documentación,Media,Documentación,Media,Documentación,Media,False
+18,True,El permiso de transporte de material peligroso del camión VWX-258 está vencido y la autoridad podría multar a la empresa; resolver hoy mismo.,Documentación,Alta,Seguridad,Alta,Documentación,Alta,Seguridad,Alta,True
+19,False,"no encuentro el permiso de la empresa para el cam LMN-482 ni el seguro, sin eso no lo dejan pasar",Documentación,Media,Documentación,Baja,Logística,Alta,Logística,Alta,True
+20,True,El camión YZA-369 presenta un retraso de 3 horas en la entrega del pedido 8841 por tráfico en la carretera.,Logística,Media,Logística,Media,Logística,Media,Logística,Media,False
+21,True,"Favor de reprogramar la descarga de mañana al muelle 3, el almacén estará lleno hasta las 10.",Logística,Baja,Logística,Baja,Logística,Media,Logística,Media,True
+22,False,ke paso con la entrega del kmion CAM-205? el cliente esta esperando y ya paso la ora,Logística,Media,Logística,Baja,Otro,Baja,Logística,Baja,True
+23,True,"Avería mecánica del camión BCD-741 en la ruta; la carga perecedera se puede echar a perder, urgente enviar otra unidad.",Logística,Alta,Logística,Alta,Logística,Alta,Logística,Alta,False
+24,True,Consulta sobre el inventario faltante de 12 cajas en la bodega 1 después del despacho de ayer.,Logística,Media,Logística,Media,Documentación,Media,Documentación,Media,True
+25,True,Informe semanal de rutas completadas: 45 entregas a tiempo y 2 con demora menor.,Logística,Baja,Logística,Media,Documentación,Baja,Documentación,Media,True
+26,False,"necesito cambiar la ruta del cam EFG-159 xq hay un bloqueo, no es urgente pero avisenme",Logística,Baja,Logística,Alta,Logística,Media,Logística,Alta,True
+27,True,Retraso crítico: el camión HIJ-753 con medicinas refrigeradas lleva 6 horas detenido y la cadena de frío está en riesgo; atender de inmediato.,Logística,Alta,Logística,Alta,Logística,Alta,Logística,Alta,False
+28,True,"Hola, ¿me confirman el horario de la reunión del viernes?",Otro,Baja,Otro,Baja,Otro,Baja,Otro,Baja,False
+29,True,Invitación a la comida de fin de año de la empresa; por favor confirmen su asistencia.,Otro,Baja,Otro,Baja,Otro,Baja,Otro,Baja,False
+30,True,Les comparto las fotos de la capacitación de la semana pasada.,Otro,Baja,Otro,Baja,Documentación,Baja,Documentación,Baja,True
+31,False,"ola buenas, kisiera saber si ai vacantes para chofer, gracias",Otro,Baja,Otro,Baja,Otro,Baja,Otro,Baja,False
+32,False,URGENTE!!! necesito que me apruebes las vacaciones antes de mañana,Otro,Media,Otro,Alta,Otro,Baja,Otro,Alta,True
+33,True,El aire acondicionado de la oficina de la caseta no funciona; favor de revisarlo cuando puedan.,Otro,Baja,Otro,Baja,Otro,Baja,Otro,Baja,False
+34,True,Cotización solicitada de uniformes para el personal; adjunto el catálogo del proveedor.,Otro,Baja,Otro,Baja,Documentación,Baja,Documentación,Baja,True
+35,True,Aviso: el sistema de correo estará en mantenimiento el sábado de 2 a 4 am.,Otro,Baja,Otro,Baja,Otro,Baja,Otro,Baja,False
